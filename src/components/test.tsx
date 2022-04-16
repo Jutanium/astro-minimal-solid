@@ -7,7 +7,7 @@ const Test: Component<{}> = (props) => {
     console.log(count());
   });
 
-  return <div>Children are: {props.children}</div>;
+  return <div>Children are a asdf{props.children}</div>;
 };
 
 export default Test;
